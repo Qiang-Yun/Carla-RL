@@ -28,6 +28,7 @@ $ pip install pyyaml
 # 进入CARLA_0.9.13文件夹下
 $ ./CarlaUE4.sh -quality-level=Low -RenderOffScreen
 ```
+# 附带参数第一个指将画质调低，默认为高，视自己的机器配置而定；第二个指不开启预览窗，这个预览窗没啥作用，大部分时候都可以不开。
 
 ## 2、启动代码
 
