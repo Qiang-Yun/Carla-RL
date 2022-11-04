@@ -1,6 +1,6 @@
 # 安装方法
 
-## 1、下载carla0.9.6
+## 1、下载carla0.9.13
 
 ## 2、安装环境
 
@@ -25,8 +25,8 @@ $ pip install pyyaml
 ## 1、启动环境
 
 ```shell
-# 进入CARLA_0.9.6文件夹下
-$ DISPLAY= ./CarlaUE4.sh -opengl -carla-port=2000
+# 进入CARLA_0.9.13文件夹下
+$ ./CarlaUE4.sh -quality-level=Low -RenderOffScreen
 ```
 
 ## 2、启动代码
