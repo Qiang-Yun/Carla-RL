@@ -32,7 +32,7 @@ $ ./CarlaUE4.sh -quality-level=Low -RenderOffScreen
 ## 2、启动代码
 #######注意#####
 启动代码前 需要将 TS_ppo.py 和 Carla_sac.py
-sys.path.append('/home/yq/CARLA_0.9.13/PythonAPI/carla/dist/carla-0.9.6-py3.5-linux-x86_64.egg')
+sys.path.append('/home/yq/CARLA_0.9.13/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg')
 修改为本地对应的路径，才能import Carla
 
 ```shell
